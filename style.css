@@ -1,0 +1,258 @@
+ body {
+   background-color: rgb(239, 246, 252) !important;
+   overflow-x: hidden !important;
+ }
+
+ nav img {
+   height: 17px;
+ }
+
+ nav {
+   height: 65px;
+   align-items: center;
+   box-shadow: 1px 0 1px 0;
+   position: fixed;
+   width: 100%;
+   justify-content: space-around;
+   background-color: rgb(239, 246, 252);
+ }
+
+ .bars {
+   display: none;
+ }
+
+ .span {
+   background-color: rgb(71, 71, 255);
+   padding: 13px 0px;
+   border-radius: 10px;
+ }
+
+ .bannerimg img{
+   height: 700px;
+   padding-top: 150px;
+ }
+ .apple{
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+
+ }
+ 
+ .google{
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: black; 
+  
+ }
+
+ .well {
+   background-color: black;
+   padding: 10px;
+   width: 270px;
+   text-align: center;
+   border-radius: 15px;
+   margin: 0 auto;
+ }
+
+ .wells {
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   width: 270px;
+   text-align: center;
+   border-radius: 15px;
+   margin: 0 auto;
+
+ }
+
+ .textyour {
+   font-size: 70px;
+   padding: 150px 0 0 0;
+   line-height: 90px;
+
+ }
+
+ .span:hover {
+   box-shadow: 0 5px 2px 0 rgb(202, 202, 253);
+ }
+
+ .moon img {
+   width: 590px;
+   margin-top: 20px;
+
+ }
+
+ .white {
+   background-color: rgb(71, 71, 255);
+   padding: 15px 10px;
+   border-radius: 20px;
+ }
+
+ .phone img {
+   width: 500px;
+ }
+
+ .white:hover {
+   box-shadow: 0 0 10px 0;
+ }
+
+ .buysell img {
+   width: 400px;
+ }
+
+ .buy-sell option {
+   width: 80%;
+ }
+
+ .download {
+   background-color: rgb(71, 71, 255);
+   padding: 15px 20px;
+   border-radius: 10px;
+   color: white;
+   width: 220px;
+
+ }
+
+ .downloads {
+   background-color: white;
+   padding: 15px 10px;
+   border-radius: 10px;
+   color: black;
+   width: 150px;
+   margin-left: 50px;
+   text-align: center;
+ }
+
+ .downloads:hover {
+   box-shadow: 0 0 10px 0 white;
+   cursor: pointer;
+ }
+
+ .download:hover {
+   box-shadow: 0 0 10px 0 blue;
+   cursor: pointer;
+ }
+
+ .sellbox {
+   width: 400px;
+   background-color: white;
+   margin-left: 30px;
+   border-radius: 20px;
+   height: 400px;
+   margin: 10px auto;
+   box-shadow: 0 0 10px 0 lightgray;
+ }
+
+
+
+ .create {
+   padding-top: 40px;
+   /* background-color: white; */
+ }
+
+ .moon {
+   background-image: url(./images/moon.PNG);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0 50px !important;
+   border-radius: 30px;
+
+ }
+
+ .call {
+   background-color: blue;
+ }
+
+ .companyname img {
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 20px;
+ }
+
+ .market {
+   background-color: rgb(71, 71, 255);
+   width: 160px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px 0;
+   border-radius: 10px;
+   color: white;
+   font-weight: bolder;
+   cursor: pointer;
+ }
+ footer ul{
+  list-style-type: disc;
+ }
+
+ @media screen and (max-width: 465px) {
+   .allin{
+     text-align: center !important;
+     
+   }
+   .text {
+     font-size: 35px !important;
+     line-height: 38px !important;
+     text-align: center !important;
+   }
+
+   .bannerimg img {
+     height: 350px !important;
+     padding-top: 30px !important;
+   }
+   .moon img{
+    width: 300px !important;
+   }
+
+ }
+
+ @media screen and (max-width: 1200px) {
+   .textyour {
+     font-size: 43px;
+     padding: 150px 0 0 0;
+     line-height: 60px;
+
+   }
+
+   .buysell img {
+     width: 350px;
+   }
+
+
+   .text2 {
+     font-size: 16px;
+   }
+
+   .bannerimg img {
+     height: 600px;
+     padding-top: 150px;
+   }
+
+   .phone img {
+     width: 400px;
+     margin-top: 30px;
+   }
+   .moon img{
+    width: 500px !important;
+   }
+
+   .phone h1 {
+     font-size: 27px;
+     font-weight: bolder;
+   }
+
+   .phone p {
+     font-size: 17px !important;
+   }
+
+   .bars {
+     display: flex;
+   }
+
+   .navlinks {
+     display: none;
+   }
+
+   nav {
+     justify-content: space-between !important;
+   }
+ }
